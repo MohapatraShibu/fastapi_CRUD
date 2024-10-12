@@ -7,28 +7,32 @@ git clone https://github.com/MohapatraShibu/fastapi_CRUD.git
 cd fastapi_project
 ```
 
-3. Create a virtual environment and activate it:
+2. Create a virtual environment and activate it:
 ```
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
-5. Install dependencies:
+3. Install dependencies:
 ```
 pip install -r requirements.txt
 ```
 
-7. Create a .env file in the app/ directory with the following content:
+4. Create a .env file in the app/ directory with the following content:
 ```
 MONGODB_URI=mongodb+srv://username:password@cluster0.mongodb.net/fastapi_db
 ```
 
-8. Run the application:
+5. Run the application:
 ```
 uvicorn app.main:app --reload
 ```
 
-10. Visit ```http://127.0.0.1:8000/docs``` for Swagger UI documentation.
+# Application Link
+Visit below link for Swagger UI:
+```
+https://shibu-29.koyeb.app/docs
+```
 
 ## Endpoints
 1. ```POST /clock-in```: Create a clock-in record.
